@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Deepak mandal</h1>
 <h3 align="center">i will tell you how you can eseally deploy next applicaion via gh-pages</h3>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">follow the steps and enjoy 😋</h3>
 <p align="left">
 </p>
 
@@ -18,19 +18,19 @@ type below
 <h3> step-6  </h3> steps: add "export": "next export"
 <h3> step-7  </h3> steps:  Change the next.config.js file to next.config.mjs, and replace everything inside with the following:
 
-/\*\*
+steps :  /\*\*
+        - @type {import('next').NextConfig}
+        \*/
+        const nextConfig = {
+        images: {
+        loader: 'akamai',
+        path: '',
+        },
+        assetPrefix: './',
+        };
+        export default nextConfig;
 
-- @type {import('next').NextConfig}
-  \*/
-  const nextConfig = {
-  images: {
-  loader: 'akamai',
-  path: '',
-  },
-  assetPrefix: './',
-  };
 
-export default nextConfig;
 steps: # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 
         # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
