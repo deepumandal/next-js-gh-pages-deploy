@@ -54,7 +54,10 @@ jobs:
           BRANCH: public # The branch the action should deploy to.
           FOLDER: out # The folder the action should deploy
 
-step-2 push in your repo
-step-2 
-step-2 
-step-2 
+step-8 push in your repo
+step-9 go to setting in github
+step-10 go in pages 
+step-11 under Build and deployment -> branch part 
+   - go to  select none to public and /root and save
+   step - 12 make some changes and push to github
+   
