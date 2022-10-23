@@ -16,9 +16,12 @@ steps: initiliase git repo
 type below
 <h3> step-5  </h3> steps: npm i
 <h3> step-6  </h3> steps: add "export": "next export"
-<h3> step-7  </h3> steps:  Change the next.config.js file to next.config.mjs, and replace everything inside with the following:
+<h3> step-7  </h3> 
+steps: 
+    Change the next.config.js file to next.config.mjs, and replace everything inside with the following:
 
-steps :  /\*\*
+steps : 
+         /\*\*
         - @type {import('next').NextConfig}
         \*/
         const nextConfig = {
@@ -31,7 +34,8 @@ steps :  /\*\*
         export default nextConfig;
 
 
-steps: # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+steps:
+         # This workflow will do a clean install of node dependencies, build the source code  and  run tests across       different versions of node
 
         # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
