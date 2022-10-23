@@ -5,13 +5,18 @@
 <p align="left">
 </p>
 
-step-1 first create next app in local directory
-step-2 initiliase git repo
-step-3 create .github/workflows/node.js.yml file
-step-4 type below
-step- 5 npm i
-step - 6 add "export": "next export"
-step -7 2. Change the next.config.js file to next.config.mjs, and replace everything inside with the following:
+ <h3> step-1  </h3>
+
+first create next app in local directory
+
+<h3> step-2  </h3>
+steps: initiliase git repo
+<h3> step-3  </h3> steps:create .github/workflows/node.js.yml file
+<h3> step-4  </h3> steps:
+type below
+<h3> step-5  </h3> steps: npm i
+<h3> step-6  </h3> steps: add "export": "next export"
+<h3> step-7  </h3> steps:  Change the next.config.js file to next.config.mjs, and replace everything inside with the following:
 
 /\*\*
 
@@ -26,11 +31,10 @@ step -7 2. Change the next.config.js file to next.config.mjs, and replace everyt
   };
 
 export default nextConfig;
-    steps:
-        # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+steps: # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 
         # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-    
+
         name: GitHub Pages deploy
         on:
         push:
@@ -55,11 +59,15 @@ export default nextConfig;
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 BRANCH: public # The branch the action should deploy to.
                 FOLDER: out # The folder the action should deploy
+<h3>step - 8 </h3> steps:push in your repo
+<h3>step - 9</h3> steps:go to setting in github
+<h3>step - 10</h3> steps:go to setting in github
+<h3>step - 11</h3> steps: go in pages
+ under Build and deployment -> branch part
 
-step-8 push in your repo
-step-9 go to setting in github
-step-10 go in pages
-step-11 under Build and deployment -> branch part
+ go to select none to public and /root and save
+<h3>step - 12</h3> steps: make some changes and push to github
 
-- go to select none to public and /root and save
-  step - 12 make some changes and push to github
+
+
+
