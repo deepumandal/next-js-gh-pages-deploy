@@ -1,7 +1,8 @@
 step-1 first create next app in local directory
 step-2 initiliase git repo 
-step-2 create .github/workflows/node.js.yml file 
-step-2 type below
+step-3 create .github/workflows/node.js.yml file 
+step-4 type below
+ste- 5 npm i
 
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
