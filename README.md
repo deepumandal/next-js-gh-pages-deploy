@@ -2,7 +2,23 @@ step-1 first create next app in local directory
 step-2 initiliase git repo 
 step-3 create .github/workflows/node.js.yml file 
 step-4 type below
-ste- 5 npm i
+step- 5 npm i
+step - 6 add "export": "next export"
+step -7 2. Change the next.config.js file to next.config.mjs, and replace everything inside with the following:
+
+
+/**
+   * @type {import('next').NextConfig}
+   */
+const nextConfig   = {
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+  assetPrefix: './',
+};
+
+export default   nextConfig;
 
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
